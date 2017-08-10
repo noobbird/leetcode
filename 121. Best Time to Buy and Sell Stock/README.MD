@@ -16,6 +16,7 @@ Input: [7, 6, 4, 3, 1]
 Output: 0
 
 In this case, no transaction is done, i.e. max profit = 0.
+
 思路：
 ---
 利用kadane algorithm [markdown](https://en.wikipedia.org/wiki/Maximum_subarray_problem),亦称为连续最大子数组问题，代码如下：
